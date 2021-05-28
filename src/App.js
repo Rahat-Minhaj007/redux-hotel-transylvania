@@ -9,7 +9,7 @@ function App() {
      <h2>Fixed github problem</h2>
      <h2>Fixed github problem</h2>
      <h2>Fixed github problem</h2>
-
+     <button className='btn btn-primary'>Hi</button>
      <h1>How How are You</h1>
 
     </div>
