@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>Changed After cloning</p>
+      <p>Change checking</p>
     </div>
   );
 }
