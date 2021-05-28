@@ -10,6 +10,8 @@ function App() {
      <h2>Fixed github problem</h2>
      <h2>Fixed github problem</h2>
 
+     <h1>How How are You</h1>
+
     </div>
   );
 }
