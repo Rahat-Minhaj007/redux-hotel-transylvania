@@ -1,17 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./App.css";
+import Header from "./containers/Header";
+import ProductDetail from "./containers/ProductDetail";
+import ProductListing from "./containers/ProductListing";
 
 function App() {
   return (
-    <div className="App">
-
-     <h1>Hello Mates</h1>
-     <h2>Fixed github problem</h2>
-     <h2>Fixed github problem</h2>
-     <h2>Fixed github problem</h2>
-
-     <h1>How How are You</h1>
-
+    <div>
+      <Router>
+        <Header></Header>
+        <Switch>
+          <Route path="/" exact component={ProductListing} />
+          <Route path="/product/:productId" exact component={ProductDetail} />
+          <Route>404 not found</Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
