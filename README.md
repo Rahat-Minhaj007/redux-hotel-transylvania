@@ -3,12 +3,12 @@
 A web  application created with html,css,javascript,react,react-bootstrap,redux,axios.
 
 ## Features
-1.In this web application,we have used React to built User interface.
-2.Bootstrap,React-bootstrap,Semantic-UI is used for Pre-styled CSS components and CSS is used for custom built components.
-3.React router is used for routing.
-4.Redux and React-redux is used for state management.
-5.Jira is used for project management.
-6.Jest is used for testing purpose.
+1. In this web application,we have used React to built User interface.
+2. Bootstrap,React-bootstrap,Semantic-UI is used for Pre-styled CSS components and CSS is used for custom built components.
+3. React router is used for routing.
+4. Redux and React-redux is used for state management.
+5. Jira is used for project management.
+6. Jest is used for testing purpose.
 
 ## Tech/framework used
 
@@ -26,13 +26,6 @@ A web  application created with html,css,javascript,react,react-bootstrap,redux,
 * Jira
 * Jest
  
-## Screenshots
-![js-standard-style](./src/images/screenshots/React-App.png)
-![js-standard-style](./src/images/screenshots/React-App-(1).png)
-![js-standard-style](./src/images/screenshots/React-App-(2).png)
-![js-standard-style](./src/images/screenshots/React-App-(3).png)
-![js-standard-style](./src/images/screenshots/React-App-(4).png)
-![js-standard-style](./src/images/screenshots/React-App-(5).png)
 
 ## Installation and Setup Instructions
 
