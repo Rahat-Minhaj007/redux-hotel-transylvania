@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,7 +23,7 @@ const Header = () => {
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#food">Foods</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link me-5 text-dark fw-bold fs-6" href="#review">Reviews</a>
+                            <NavLink to='/orders' style={{textDecoration:'none'}}> <a className="nav-link me-5 text-dark fw-bold fs-6" >Orders</a></NavLink>
                         </li>
                         <li className="nav-item ">
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#contact">Contact Us</a>

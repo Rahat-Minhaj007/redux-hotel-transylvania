@@ -7,6 +7,7 @@ import FoodDetails from "./components/FoodDetails/FoodDetails";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import NoMatch from "./components/NoMatch/NoMatch";
+import Orders from "./components/Orders/Orders";
 
 
 function App() {
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route path="/login">
               {/* <LogIn></LogIn> */}
+            </Route>
+            <Route path="/orders">
+              <Orders></Orders>
             </Route>
             <Route exact path="/">
               <Home></Home>

@@ -3,7 +3,8 @@ import React from 'react';
 const NoMatch = () => {
     var style = {
         backgroundColor: "black",
-
+        paddingTop:'100px',
+        paddingBottom:'100px',
         textAlign: "center",
         color: "white"
 
