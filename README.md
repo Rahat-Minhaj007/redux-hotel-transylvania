@@ -1,71 +1,72 @@
-# Getting Started with Create React App
+# React Redux Team project-Hotel Transylvania Website
+### Team No.28
+A web  application created with html,css,javascript,react,react-bootstrap,redux,axios.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+1.In this web application,we have used React to built User interface.
+2.Bootstrap,React-bootstrap,Semantic-UI is used for Pre-styled CSS components and CSS is used for custom built components.
+3.React router is used for routing.
+4.Redux and React-redux is used for state management.
+5.Jira is used for project management.
+6.Jest is used for testing purpose.
 
-## Available Scripts
+## Tech/framework used
 
-In the project directory, you can run:
+<b>Built with</b>
 
-### `npm start`
+* HTML
+* CSS
+* Javascript
+* React
+* React-router
+* Bootstrap
+* React-bootstrap
+* Semantic-UI
+* Redux and React-redux
+* Jira
+* Jest
+ 
+## Screenshots
+![js-standard-style](./src/images/screenshots/React-App.png)
+![js-standard-style](./src/images/screenshots/React-App-(1).png)
+![js-standard-style](./src/images/screenshots/React-App-(2).png)
+![js-standard-style](./src/images/screenshots/React-App-(3).png)
+![js-standard-style](./src/images/screenshots/React-App-(4).png)
+![js-standard-style](./src/images/screenshots/React-App-(5).png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation and Setup Instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm test`
+Installation:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`  
 
-### `npm run build`
+To Run Test Suite:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm test`  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Start Server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`  
 
-### `npm run eject`
+To Visit App:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`localhost:3000/ideas` 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## How to use 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Go to the website home to view Welcome banner,Hotel menu, Features and Other Informations.
+* User can see differnt menus by selecting ***Breakfast*** / ***Lunch*** /***Dinner*** on menu tab.
+* User can click on a menu to see the details of this menu.In this page user can choose the quantity and ***Add*** the item to his order list.
+* User can see all his ordered items in the ordered list with total purchase price.
+* By clicking the ***Place Order*** button on the order page ,He can place final order.    
 
-## Learn More
+## Credits
+This project is developed by Minhajul Abedin Rahat,Murad Ahmed and Tasnuva Rahman
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# redux-hotel-transylvania
+## License
+© [Minhajul Abedin Rahat](https://github.com/Rahat-Minhaj007)
+© [muradtheOZ](https://github.com/muradtheOZ)
+© [Tasnuva Rahman](https://github.com/tasnuvatina)
