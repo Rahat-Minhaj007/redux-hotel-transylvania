@@ -31,3 +31,10 @@ export const removeAllOrders=()=>{
         type : ActionTypes.REMOVE_ALL_ORDERS
     }
 }
+
+export const addLoggedInUser=(products)=>{
+    return {
+        type:ActionTypes.SET_LOGGEDIN_USER,
+        payload:products
+    }
+}
