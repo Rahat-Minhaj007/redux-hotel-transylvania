@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import './BreakFast.css';
 
 const BreakFast = (props) => {
-  const {breakImg,breakName,breakPrice,id} = props.foodB
+  const {name,img,price,id} = props.foodB
     return (
-        <div className="mt-5 breakFast team ml-5 mb-4 col-md-4">
+        <div className="mt-5 breakFast team ms-5 mb-4 col-md-3" data-aos="zoom-in">
         <Link style={{textDecoration:"none",color:"black"}} to={`/foodDetails/${id}`}>
         <Card
           style={{ width: "17rem", border: "none", background: "none" }}
@@ -18,13 +18,13 @@ const BreakFast = (props) => {
             <Card.Img
               style={{ width: "100%" }}
               variant="top"
-              src={breakImg}
+              src={img}
             />
             <Card.Title className="mt-3 text-center">
-              {breakName}
+              {name}
             </Card.Title>
             <div className="d-flex justify-content-center">
-              <h4 style={{ color: "black" }}>$ {breakPrice}</h4>
+              <h4 style={{ color: "black" }}>$ {price}</h4>
             </div>
           </Card.Body>
         </Card>

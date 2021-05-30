@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
@@ -5,7 +6,7 @@ import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container-fluid">
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +20,7 @@ const Header = () => {
                             <Link className="nav-link me-5 active text-dark fw-bold fs-6" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link me-5 text-dark fw-bold fs-6" href="#about">Foods</a>
+                            <a className="nav-link me-5 text-dark fw-bold fs-6" href="#food">Foods</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#review">Reviews</a>
@@ -28,7 +29,7 @@ const Header = () => {
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#contact">Contact Us</a>
                         </li>
                         <li className="nav-item pr-3">
-                            <a href='/'><button className="btn btn-brand fw-bold text-light">LOG IN</button></a>
+                            <a href='#'><button className="btn btn-brand fw-bold text-light">LOG IN</button></a>
                         </li>
                         
 

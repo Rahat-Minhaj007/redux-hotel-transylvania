@@ -12,6 +12,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.spinner{
+  margin-left: 48%;
+  margin-top: 22%
+}
+@media only screen and (max-width: 768px) {
+  .spinner{
+    margin-left: 40%;
+    margin-top: 80%
+  }
+}
 
 .App-header {
   background-color: #282c34;

@@ -4,20 +4,21 @@ import BreakFast from "../BreakFast/BreakFast";
 import Lunch from "../Lunch/Lunch";
 import Dinner from "../Dinner/Dinner";
 import { useSelector } from "react-redux";
-import fakeData from "../../fakeData/fakeData.json";
+
 
 const HomeTab = () => {
+    
     const products = useSelector((state) => state.allProducts.products);
     console.log(products);
 
-    const breakFast = fakeData.filter((brk) => brk.type === "breakfast");
-    const lunch = fakeData.filter((lnch) => lnch.type === "lunch");
-    const dinner = fakeData.filter((dnr) => dnr.type === "dinner");
+    const breakFast = products.filter((brk) => brk.type === "breakfast");
+    const lunch = products.filter((lnch) => lnch.type === "lunch");
+    const dinner = products.filter((dnr) => dnr.type === "dinner");
 
 
 
     return (
-        <div>
+        <div id='food'>
             <Tabs>
                 <TabList className="list">
                     <Tab className="tabItem"><strong>Breakfast</strong></Tab>

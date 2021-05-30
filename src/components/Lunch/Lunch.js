@@ -4,9 +4,9 @@ import './Lunch.css';
 import { Link } from 'react-router-dom';
 
 const Lunch = (props) => {
-  const {lunchImg,lunchName,lunchPrice,id} = props.foodL
+  const {name,img,price,id} = props.foodL
     return (
-        <div className="mt-5 lunch team ml-5 mb-4 col-md-4">
+        <div className="mt-5 lunch team ms-5 mb-4 col-md-3" data-aos="zoom-in">
         <Link style={{textDecoration:"none",color:"black"}} to={`/foodDetails/${id}`}>
         <Card
           style={{ width: "17rem", border: "none", background: "none" }}
@@ -18,13 +18,13 @@ const Lunch = (props) => {
             <Card.Img
               style={{ width: "100%" }}
               variant="top"
-              src={lunchImg}
+              src={img}
             />
             <Card.Title className="mt-3 text-center">
-              {lunchName}
+              {name}
             </Card.Title>
             <div className="d-flex justify-content-center">
-              <h4 style={{ color: "black" }}>$ {lunchPrice}</h4>
+              <h4 style={{ color: "black" }}>$ {price}</h4>
             </div>
           </Card.Body>
         </Card>

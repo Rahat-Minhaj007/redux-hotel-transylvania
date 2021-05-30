@@ -11,7 +11,7 @@ const ProductListing = () => {
     const dispatch=useDispatch();
 
     const fetchProducts=()=>{
-       
+        
         dispatch(setProducts(fakeData))
     }
 

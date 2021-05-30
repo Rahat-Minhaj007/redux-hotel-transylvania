@@ -2,129 +2,129 @@
     {
         "id": 1,
         "type":"breakfast",
-        "breakName": "Bagel and Cream Cheese",
-        "breakImg": "https://i.ibb.co/r0SZ7sf/breakfast1-2.png",
-        "breakPrice": 35
+        "name": "Bagel and Cream Cheese",
+        "img": "https://i.ibb.co/r0SZ7sf/breakfast1-2.png",
+        "price": 35
         
     },
     {
         "id": 2,
         "type":"breakfast",
-        "breakName": "Breakfast Sandwich",
-        "breakImg": "https://i.ibb.co/5j5PjtS/breakfast2.png",
-        "breakPrice": 29
+        "name": "Breakfast Sandwich",
+        "img": "https://i.ibb.co/5j5PjtS/breakfast2.png",
+        "price": 29
     },
     {
         "id": 3,
         "type":"breakfast",
-        "breakName": "Baked Chicken",
-        "breakImg": "https://i.ibb.co/tBTktv0/breakfast3.png",
-        "breakPrice": 67
+        "name": "Baked Chicken",
+        "img": "https://i.ibb.co/tBTktv0/breakfast3.png",
+        "price": 67
     },
     {
         "id": 4,
         "type":"breakfast",
-        "breakName": "Eggs Benedict",
-        "breakImg": "https://i.ibb.co/qgvL4Mw/breakfast4.png",
-        "breakPrice": 48
+        "name": "Eggs Benedict",
+        "img": "https://i.ibb.co/qgvL4Mw/breakfast4.png",
+        "price": 48
     },
     {
         "id": 5,
         "type":"breakfast",
-        "breakName": "Toast Croissant Fried Egg",
-        "breakImg": "https://i.ibb.co/wJ6g6VM/breakfast5.png",
-        "breakPrice": 55
+        "name": "Toast Croissant Fried Egg",
+        "img": "https://i.ibb.co/wJ6g6VM/breakfast5.png",
+        "price": 55
     },
     {
         "id": 6,
         "type":"breakfast",
-        "breakName": "Full Breakfast Fried Egg Toast Brunch",
-        "breakImg": "https://i.ibb.co/CQ5Rx1w/breakfast6.png",
-        "breakPrice": 23
+        "name": "Full Breakfast Fried Egg Toast Brunch",
+        "img": "https://i.ibb.co/CQ5Rx1w/breakfast6.png",
+        "price": 23
     },
     {
         "id": 7,
         "type":"lunch",
-        "lunchName": "Healthy Meal Plan",
-        "lunchImg": "https://i.ibb.co/s2M2d7p/Lunch1.png",
-        "lunchPrice": 55
+        "name": "Healthy Meal Plan",
+        "img": "https://i.ibb.co/s2M2d7p/Lunch1.png",
+        "price": 55
     },
     {
         "id": 8,
         "type":"lunch",
-        "lunchName": "Fried Chicken Bento",
-        "lunchImg": "https://i.ibb.co/dW65gGT/Lunch2.png",
-        "lunchPrice": 55
+        "name": "Fried Chicken Bento",
+        "img": "https://i.ibb.co/dW65gGT/Lunch2.png",
+        "price": 55
     },
     {
         "id": 9,
         "type":"lunch",
-        "lunchName": "Tarragon-Rubbed-Salmon",
-        "lunchImg": "https://i.ibb.co/y0SScvC/lunch3.png",
-        "lunchPrice": 55
+        "name": "Tarragon-Rubbed-Salmon",
+        "img": "https://i.ibb.co/y0SScvC/lunch3.png",
+        "price": 55
     },
     {
         "id": 10,
         "type":"lunch",
-        "lunchName": "Indian Lunch",
-        "lunchImg": "https://i.ibb.co/NLtV70Y/lunch4.png",
-        "lunchPrice": 55
+        "name": "Indian Lunch",
+        "img": "https://i.ibb.co/NLtV70Y/lunch4.png",
+        "price": 55
     },
     {
         "id": 11,
         "type":"lunch",
-        "lunchName": "Beef Steak",
-        "lunchImg": "https://i.ibb.co/qmpS5Sd/Lunch5.png",
-        "lunchPrice": 55
+        "name": "Beef Steak",
+        "img": "https://i.ibb.co/qmpS5Sd/Lunch5.png",
+        "price": 55
     },
     {
         "id": 12,
         "type":"lunch",
-        "lunchName": "Honey-Soy-Glazed Salmon with Peppers",
-        "lunchImg": "https://i.ibb.co/7RwmwbB/Lunch6.png",
-        "lunchPrice": 55
+        "name": "Honey-Soy-Glazed Salmon with Peppers",
+        "img": "https://i.ibb.co/7RwmwbB/Lunch6.png",
+        "price": 55
     },
     {
         "id": 13,
         "type":"dinner",
-        "dinnerName": "Salmon with Grapefruit & Lentil Salad",
-        "dinnerImg": "https://i.ibb.co/jMsfGWH/Dinner1.png",
-        "dinnerPrice": 55
+        "name": "Salmon with Grapefruit & Lentil Salad",
+        "img": "https://i.ibb.co/jMsfGWH/Dinner1.png",
+        "price": 55
     },
     {
         "id": 14,
         "type":"dinner",
-        "dinnerName": "Lemony Salmon Piccata",
-        "dinnerImg": "https://i.ibb.co/xC1P3S2/dinner2.png",
-        "dinnerPrice": 55
+        "name": "Lemony Salmon Piccata",
+        "img": "https://i.ibb.co/xC1P3S2/dinner2.png",
+        "price": 55
     },
     {
         "id": 15,
         "type":"dinner",
-        "dinnerName": "Pork Tenderlion with Quinoa Pilaf",
-        "dinnerImg": "https://i.ibb.co/PwSkjQ7/Dinner3.png",
-        "dinnerPrice": 55
+        "name": "Pork Tenderlion with Quinoa Pilaf",
+        "img": "https://i.ibb.co/PwSkjQ7/Dinner3.png",
+        "price": 55
     },
     {
         "id": 16,
         "type":"dinner",
-        "dinnerName": "French Fries with Cheese",
-        "dinnerImg": "https://i.ibb.co/nfLNBS9/dinner4.png",
-        "dinnerPrice": 55
+        "name": "French Fries with Cheese",
+        "img": "https://i.ibb.co/nfLNBS9/dinner4.png",
+        "price": 55
     },
     {
         "id": 17,
         "type":"dinner",
-        "dinnerName": "Garlic Butter Backed Salmon",
-        "dinnerImg": "https://i.ibb.co/L800np4/Dinner5.png",
-        "dinnerPrice": 55
+        "name": "Garlic Butter Backed Salmon",
+        "img": "https://i.ibb.co/L800np4/Dinner5.png",
+        "price": 55
     },
     {
         "id": 18,
         "type":"dinner",
-        "dinnerName": "Backed Chicken",
-        "dinnerImg": "https://i.ibb.co/W31CcYc/Dinner6.png",
-        "dinnerPrice": 55
+        "name": "Backed Chicken",
+        "img": "https://i.ibb.co/W31CcYc/Dinner6.png",
+        "price": 55
     }
     
 ]
