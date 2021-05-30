@@ -26,13 +26,6 @@ A web  application created with html,css,javascript,react,react-bootstrap,redux,
 * Jira
 * Jest
  
-<!-- ## Screenshots
-![js-standard-style](./src/images/screenshots/React-App.png)
-![js-standard-style](./src/images/screenshots/React-App-(1).png)
-![js-standard-style](./src/images/screenshots/React-App-(2).png)
-![js-standard-style](./src/images/screenshots/React-App-(3).png)
-![js-standard-style](./src/images/screenshots/React-App-(4).png)
-![js-standard-style](./src/images/screenshots/React-App-(5).png) -->
 
 ## Installation and Setup Instructions
 
