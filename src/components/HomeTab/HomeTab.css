@@ -1,0 +1,47 @@
+.list{
+    position:sticky;
+    top: 0px;
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:8vh;
+    font-weight:600;
+    
+}
+.tabItem{
+    position:relative;
+    cursor:pointer;
+    padding-bottom : 8px;
+    margin: 45px;
+    
+}
+.tabItem::after{
+    position:absolute;
+    bottom:0;
+    left:0;
+    content:"";
+    width:0%;
+    height: 3px;
+    background-color:#8f49ff;
+    transition:width 0.4s ease-out;
+    
+}
+.tabItem:hover.tabItem::after{
+    width:100%;
+   
+}
+.tabItem:hover{
+    color:#8f49ff;
+}
+@media(max-width:767px){
+    .tabItem{
+        
+        
+        margin: 30px;
+        
+    }
+    .list{
+        margin-right:35px;
+    }
+}

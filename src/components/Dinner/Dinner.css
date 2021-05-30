@@ -1,0 +1,14 @@
+.dinner{
+    cursor: pointer;
+   
+ }
+ .dinnerBody{
+     background-color:white;
+ }
+
+ .dinner .dinnerBody:hover{
+ 
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+   
+}

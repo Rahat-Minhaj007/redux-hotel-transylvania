@@ -1,0 +1,13 @@
+.breakFast{
+    cursor: pointer;
+   
+ }
+ .breakFastBody{
+     background-color:white;
+ }
+ .breakFast .breakFastBody:hover{
+ 
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+   
+}

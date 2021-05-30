@@ -12,6 +12,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.spinner{
+  margin-left: 48%;
+  margin-top: 22%
+}
+@media only screen and (max-width: 768px) {
+  .spinner{
+    margin-left: 40%;
+    margin-top: 80%
+  }
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +45,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-brand{
+  background-image: linear-gradient(60deg,#7722ff,#8f49ff);
+  border:none;
+  color:white;
+  
+}
+
+.btn-brand:hover{
+  background-image: linear-gradient(60deg,#8f49ff,#7722ff);
 }
