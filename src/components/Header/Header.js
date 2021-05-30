@@ -2,9 +2,17 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { logOutUser } from '../../redux/actions/productActions';
 
 const Header = () => {
-    
+    const user = useSelector((state) => state.user);
+    const dispatch = useDispatch()
+    const handleLogOutUser=()=>{
+        dispatch(logOutUser())
+    }
+ 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container-fluid">
@@ -22,15 +30,23 @@ const Header = () => {
                         <li className="nav-item">
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#food">Foods</a>
                         </li>
-                        <li className="nav-item">
+                        {
+                            user.email &&
+                            <li className="nav-item">
                             <NavLink to='/orders' style={{textDecoration:'none'}}> <a className="nav-link me-5 text-dark fw-bold fs-6" >Orders</a></NavLink>
-                        </li>
+                            </li>
+                        }
                         <li className="nav-item ">
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#contact">Contact Us</a>
                         </li>
-                        <li className="nav-item pr-3">
+                        {
+                            !user.email ? <li className="nav-item pr-3">
                             <Link to="/login"><button className="btn btn-brand fw-bold text-light">LOG IN</button></Link>
+                        </li> :
+                        <li className="nav-item pr-3">
+                            <button className="btn btn-brand fw-bold text-light" onClick={handleLogOutUser}>LOG OUT</button>
                         </li>
+                        }
                         
 
                     </ul>

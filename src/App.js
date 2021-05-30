@@ -9,6 +9,7 @@ import Home from "./components/Home/Home";
 import NoMatch from "./components/NoMatch/NoMatch";
 import Orders from "./components/Orders/Orders";
 import Login from "./components/Login/Login";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
 
 function App() {
@@ -46,15 +47,15 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/foodDetails/:id">
+            <PrivateRoute path="/foodDetails/:id">
               <FoodDetails></FoodDetails>
-            </Route>
+              </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/orders">
+            <PrivateRoute path="/orders">
               <Orders></Orders>
-            </Route>
+            </PrivateRoute>
             <Route exact path="/">
               <Home></Home>
             </Route>

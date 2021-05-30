@@ -47,8 +47,8 @@ export const addLoggedInUserReducer = (state = {}, { type, payload }) => {
   switch (type) {
     case ActionTypes.SET_LOGGEDIN_USER:
       return {...state,...payload};
-    // case ActionTypes.REMOVE_ALL_ORDERS:
-    //     return [];
+    case ActionTypes.LOG_OUT_USER:
+        return {};
     default:
       return state;
   }

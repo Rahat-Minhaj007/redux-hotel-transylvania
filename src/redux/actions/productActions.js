@@ -38,3 +38,8 @@ export const addLoggedInUser=(products)=>{
         payload:products
     }
 }
+export const logOutUser=()=>{
+    return {
+        type:ActionTypes.LOG_OUT_USER,
+    }
+}
