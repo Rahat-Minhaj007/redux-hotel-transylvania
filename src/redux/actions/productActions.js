@@ -18,3 +18,16 @@ export const removeSelectedProduct=()=>{
         type: ActionTypes.REMOVE_SELECTED_PRODUCT
     }
 }
+
+export const addFoodToOrders=(products)=>{
+    return {
+        type:ActionTypes.ADD_FOOD_TO_ORDERS,
+        payload:products
+    }
+}
+
+export const removeAllOrders=()=>{
+    return {
+        type : ActionTypes.REMOVE_ALL_ORDERS
+    }
+}
