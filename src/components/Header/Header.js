@@ -29,7 +29,7 @@ const Header = () => {
                             <a className="nav-link me-5 text-dark fw-bold fs-6" href="#contact">Contact Us</a>
                         </li>
                         <li className="nav-item pr-3">
-                            <a href='#'><button className="btn btn-brand fw-bold text-light">LOG IN</button></a>
+                            <Link to="/login"><button className="btn btn-brand fw-bold text-light">LOG IN</button></Link>
                         </li>
                         
 

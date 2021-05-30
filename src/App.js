@@ -8,6 +8,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import NoMatch from "./components/NoMatch/NoMatch";
 import Orders from "./components/Orders/Orders";
+import Login from "./components/Login/Login";
 
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
               <FoodDetails></FoodDetails>
             </Route>
             <Route path="/login">
-              {/* <LogIn></LogIn> */}
+              <Login></Login>
             </Route>
             <Route path="/orders">
               <Orders></Orders>

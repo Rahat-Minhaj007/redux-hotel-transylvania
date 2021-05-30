@@ -42,3 +42,14 @@ export const FoodToOrdersReducer = (state = [], { type, payload }) => {
 //       return state;
 //   }
 // };
+
+export const addLoggedInUserReducer = (state = {}, { type, payload }) => {
+  switch (type) {
+    case ActionTypes.SET_LOGGEDIN_USER:
+      return {...state,...payload};
+    // case ActionTypes.REMOVE_ALL_ORDERS:
+    //     return [];
+    default:
+      return state;
+  }
+};
